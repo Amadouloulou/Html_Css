@@ -1,0 +1,60 @@
+body{
+  font-size: 25px;
+}
+
+h1{
+  background: grey;
+  color: blue;
+}
+
+section p{
+  color: red;
+}
+
+section p:first-child{/*premier p*/
+   color: darkblue;
+}
+
+section p:last-child{/*dernier p*/
+  color: lightgreen;
+}
+
+section p:nth-child(even){/*les p pairs*/
+  color: blue;
+}
+section p:nth-child(odd){/*les p impairs*/
+  color: brown;
+}
+
+
+section p:nth-child(3), section p:nth-child(9){/*les p en postion 3 et 9*/
+  color: orange;
+}
+.zone{/*on selectionne une CLASS avec un . devant le nom de la class*/
+  color:  #dc143c
+  }
+
+.zone2{
+  color: #008080
+}
+.lime{
+  color: #00ff00
+}
+#zone3{/*on selectionne un ID avec un # devant le nom de l'ID*/
+  background: #f5deb3;
+  color: #8b4513
+}
+#zone3:after{/*rajouter un contenu apres l'ID zones 3*/
+  content: " rajouter apres";
+}
+#zone3:before{/*rajouter un contenu avant l'ID zones 3*/
+  content: " et moi je vie,ns avant";
+}
+.zone4 span{/*appliquer une mise en forme au contenu dans la balise span imbriquée dans la*/
+  color: #ff7f50;
+  background: #66cdaa;
+}
+li:nth-child(2){
+  background: dark
+  color:white
+}
