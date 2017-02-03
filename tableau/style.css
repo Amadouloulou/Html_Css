@@ -1,0 +1,35 @@
+*{
+    font-family: fantasy;
+}/*l'étoile ou l'astérisque sélectionne tous les éléments de la page html*/
+body{
+    wtdth: 50%;
+}
+table{
+    border:  4px solid #483d8b;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 25px;
+}
+thead, tfoot{
+    background: #e6e6fa;
+    border: 2px solid  #6a5acd;
+}
+tbody{
+    border: 1px solid #6a5acd;
+}
+th{
+    border: 1px solid #6a5acd;
+    padding: 4px;
+    background: #e6e6fa;
+    width: 25%;
+}
+td{
+    font-size: 100%;
+    border: 1px dotted #6a5acd;
+    padding: 5px;
+    text-align: center;
+}
+td:first-child{
+    text-align: left;
+    background: #e6e6fa;
+}

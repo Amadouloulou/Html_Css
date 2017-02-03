@@ -1,0 +1,37 @@
+body{
+    width: 80%; /* affichage de mon body sur 80% de la taille de l'ecran de l'utilisateur - travailler sur la largeur en % permet d'etre facilement responsive */
+    margin: 10px auto;
+    font-family: cursive;
+}
+
+#container{
+    background-color: red;
+    border: 2px solid #000;
+}
+
+header, footer{
+    height: 80px;
+    background: #8e3557;
+    color: #fff;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.nav{
+    height: 40px;
+    background: #4a1a2c;
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 6px;
+}
+
+.centre{
+    border: 20px solid #787746;
+    background: #e6e2af;
+    height: 500px;
+    text-align: center;
+}
+
+p{
+    margin: 0;
+}
