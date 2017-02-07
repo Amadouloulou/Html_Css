@@ -1,0 +1,21 @@
+div{
+    margin: 50px 0 0 50px;
+}
+
+div img{
+    height: 200px;
+    width: 280px;
+    border: 5px solid #000; /*taille, style, couleur de la bordure*/
+    margin: 15px;
+    float: left; /* effet flottant, permet de mettre des DIV côte à côte alors qu'automatiquement les éléments se suivent selon le flux internet standart. Avec un "float" on sort cet élément du flux standart pour le positionner autrement*/
+    transition: margin 0.5px;
+}
+
+/*comportement different au survol (hover) de la souris, marche pour DIV, texte...*/
+div img:hover{
+    margin-top: 3px;
+}
+
+.clear{
+    clear: both;
+} /*supprime l'effet flottant et retourne au flux standard selon lequel les éléments d'une page web se mettent par défaut les uns à la suite des autres dans le sens de la structure de la page html*/

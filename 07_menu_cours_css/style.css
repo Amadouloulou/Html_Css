@@ -1,0 +1,72 @@
+*{
+    font-family: sans-serif;/*police d'écriture*/
+}
+
+nav{
+    background: #000;
+    color: #fff;
+    padding: 0 0.5em;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0; /*postion à partir du haut de l'ecran*/
+    left: 0; /*postion à partir de la gauche de l'cran*/
+    margin: 0;
+}
+
+nav a{ /*tous les liens à l'interieur de la balise nav*/
+float: left; /*effet flottant à gauche*/
+text-decoration: none; /*pas d'héritage avec effet souligné comme c'est standard pour les liens sous tous les navigateurs*/
+color: #fff; /*couleur de texte*/
+background: #000; /*couleur de fond*/
+height: 2.8em;  /*hauteur de la nav*/
+line-height: 2.7em;  /*interligne*/
+padding: 0em 2em;  /*marge interieures - on les fait dans le sens des aiguilles d'une montre par convention (haut, droite, bas, gauche)*/
+font-size: 1.2em;  /*taille de texte*/
+transition: 2s;  /*temps de transition lors du hover (survol de la souris) : ici 2 secondes*/
+}
+
+nav a:hover{ /*tous les liens au survol de la souris dans la nav*/
+    background: #fda500;  /*couleur de fond*/
+    color: #000;  /*couleur du texte*/
+}
+/*1er container*/
+.container{
+    width: 70%;
+    margin: 4% auto 2%auto;
+    background: #B0C4DE;
+    padding: 2em;
+}
+mark{
+    background: #203946
+}
+
+/*2ème container*/
+.container1{
+    width: 70%;
+    margin: 2% auto;/*contraction pour 2% auto 2% auto*/
+    background: #f0e9fd;
+    padding: 2%;
+}
+
+/*container 3 et 4 imbriqués dans le container1*/
+.container2, .container3{
+    width: 44.5%;
+    background: #f1fcde;
+    padding: 2%;
+    float: left;
+}
+
+.container2{
+    margin-right: 1.5%;
+}
+.container3{
+    margin-left: 1.5%;
+}
+.container4{
+    margin-top: 2em;
+}
+
+.clear{
+    clear: both;
+}
