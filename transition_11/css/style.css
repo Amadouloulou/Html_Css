@@ -1,0 +1,58 @@
+body{
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+
+ul{/*sélectionne toutes les listes <ul>*/
+    list-style: none;/*supression des puces des listes*/
+    float: left;/*effet flottant à gauche*/
+    margin: 0;/*marges extérieures*/
+    padding: 0;/*marges intérieures*/
+}
+
+.left, .right{
+    margin-top: 5em;
+}
+
+.left ul{
+    margin:3.2em 0 0 0;
+}
+.left ul li:first-child{/*premier <li> de la liste <ul> ayant la class left*/
+    border-top: 1px solid #ccc;
+}
+
+.left ul li{/*tous le s<li> de la liste <ul> ayant la class .left*/
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    padding: 1em;
+    width: 10em;
+}
+
+ul.list-1 li{/*tous les <li> de la liste <ul> ayant la class .list-1*/
+    border-left: 1px solid #ccc;
+}
+
+.right .change ul li{/*tous les <li> de la liste <ul> ayant la class .change elle-même contenue dans la class .right*/
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 1em;
+    width: 10em;
+    text-align: center;
+}
+.right .change ul li:first-child{/*premier <li> de la liste <ul> ayant la class .change, elle-même contenue dans la class .right*/
+    border-left: 1px solid #ccc;
+    background-color: #5d5d5d;
+    color: #fff;
+    font-weight: bold;
+}
+.right .change ul li:last-child{/*dernier <li> de la liste <ul> ayant la class .change, elle-même contenue dans la class .right*/
+    border-bottom: 1px solid #ccc;
+}
+.right .change ul:hover{/*au survol de la souris (hover) sélectionne la liste <ul> ayant la class .change elle-même contenue dans la class .right*/
+    background: linear-gradient(#4682B4, #87CEEB);/*dégradé de couleur*/
+    cursor: pointer;
+    transform:scale(1.4);
+    transition-duration: 3s;
+}
+.right .change ul:hover li.first-child{/*au survol de la souris sélectionne le premier <li> de la liste <ul> ayant la class .change, elle même contenue dans la class .right*/
+    background: #000;
