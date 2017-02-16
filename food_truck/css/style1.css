@@ -1,0 +1,54 @@
+
+.imgHead{
+    height: 210px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 2%;
+    background-position:center;
+}
+
+.imgHead p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 75%;
+    margin-left: auto;
+    margin-top: 20%;
+    padding: 10px 5px;
+    text-align: center;
+}
+#logo_L{
+    background-image:url("../img/foret.jpg");
+}
+#Titre{
+    background-image:url("../img/Soleil-dans-la-foret_visuel_large.jpg");
+}
+
+
+.texte{
+    font-family: 'Just Another Hand',cursive;
+    font-size: 4.5rem;
+}
+
+#ardoise{
+    padding: 4.5% 0;
+    background-position-y: bottom;
+    background-size: cover;
+    background-image: url(../img/foret-charnie.jpg);
+    color: white;
+    vertical-align: middle;
+}
+
+#descritif{
+    vertical-align: middle;
+}
+
+#ardoise span{
+    float: right;
+    color: yellow;
+    padding-right: 10%;
+}
+
+#ardoise li:before{
+    content:"♣";
+    padding-right: 2%;
+}

@@ -1,0 +1,17 @@
+body{
+    font-family: 'Caveat Brush', cursive;
+}
+
+.imgHead{
+    height: 450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+}
+#logo{
+    background-image:url("../img/logo.png");
+}
+#full{
+    background-image:url("../img/fbe08f1d80982fea1778af4fd239afe7.jpg");
+}
