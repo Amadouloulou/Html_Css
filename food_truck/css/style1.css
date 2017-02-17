@@ -33,7 +33,7 @@
     padding: 4.5% 0;
     background-position-y: bottom;
     background-size: cover;
-    background-image: url(../img/foret-charnie.jpg);
+    background-image: url("../img/foret-charnie.jpg");
     color: white;
     vertical-align: middle;
 }

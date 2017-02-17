@@ -28,3 +28,8 @@ div#contenu{
     background-repeat: no-repeat;
     margin-left: 2em;
 }
+
+.image{
+    float: right;
+    padding: 20 10 10;
+}

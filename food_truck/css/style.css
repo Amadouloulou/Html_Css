@@ -1,17 +1,58 @@
-body{
-    font-family: 'Caveat Brush', cursive;
-}
-
 .imgHead{
-    height: 450px;
+    height: 210px;
     background-size: contain;
     background-repeat: no-repeat;
-
-
+    margin-bottom: 2%;
+    background-position: center;
 }
-#logo{
-    background-image:url("../img/logo.png");
+.imgHead p{
+    margin: auto;
+    width: 75%;
+    margin-top: 15%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 5px;
+    text-align: center;
 }
-#full{
-    background-image:url("../img/fbe08f1d80982fea1778af4fd239afe7.jpg");
+#logo_L{
+    background-image: url('../img/elpaso-logo_glow.png');
+}
+#titre{
+    background-image: url('../img/eltacot_logo.png');
+}
+
+/*style du corp de page*/
+.texte{
+    font-family: 'Just Another Hand', cursive;
+    font-size: 4.5rem;
+}
+#ardoise{
+    padding: 4.5% 0;
+    background-position: bottom;
+    background-size: cover;
+    background-image: url(../img/DMR4007202-0403-0300-p00-tableau-magnetique-metal-decor.jpg);
+    color: white;
+}
+#descriptif{
+padding-left: 2em;
+text-align: justify;
+padding: 9%;
+}
+
+@media screen and (max-width: 768px){
+    /*Rédigez vos propriétés CSS ici*/
+    .texte{font-size:2rem
+    }
+}
+#ardoise span{
+    float: right;
+    color: yellow;
+    padding-right: 10%
+}
+#ardoise li:before{
+    content:"♣";
+    padding-right: 2%;
+}
+li{
+    list-style: none;
 }
